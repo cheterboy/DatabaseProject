@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="Derby/derby.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyclient.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_cs.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_de_DE.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_es.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_fr.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_hu.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_it.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_ja_JP.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_ko_KR.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_pl.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_pt_BR.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_ru.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_zh_CN.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyLocale_zh_TW.jar"/>
+	<classpathentry kind="lib" path="Derby/derbynet.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyoptionaltools.jar"/>
+	<classpathentry kind="lib" path="Derby/derbyrun.jar"/>
+	<classpathentry kind="lib" path="Derby/derbytools.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
