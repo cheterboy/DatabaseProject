@@ -1,6 +1,11 @@
 import java.sql.*;
-//import org.apache.derby.jdbc.ClientDriver;
-import org.apache.derby.jdbc.EmbeddedDriver;
+
+import org.apache.derby.drda.NetworkServerControl;
+import org.apache.derby.jdbc.ClientDriver;
+
+
+
+//import org.apache.derby.jdbc.EmbeddedDriver;
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
@@ -11,11 +16,18 @@ public class DBProjDemo {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		try {
+			NetworkServerControl server = new NetworkServerControl();
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		Connection conn = null;
 		boolean moreQueries = true;
+		Driver d = new ClientDriver();
+		//Driver d = new EmbeddedDriver();	
 		
-		//Driver d = new ClientDriver();
-		Driver d = new EmbeddedDriver();	
+		
 		String url = "jdbc:derby:/home/dc/workspace/DBProj/gamedb";
 		
 		//try to connect to gamedb
